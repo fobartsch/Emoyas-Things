@@ -478,7 +478,8 @@ h3{
 footer{
     width: 100%;
     position: relative;
-
+    background: #2c3e50;
+    /* text-align: center; */
 }
 
 .contenedor{
@@ -514,12 +515,21 @@ footer .contenedor .caja{
     width: 150px;
 }
 
+p{
+    text-align: center;
+    color: #7a7a7a;
+}
+
 .caja .terminos{
     max-width: 320px;
     margin-top: 20px;
     font-weight: 500;
     color: #7a7a7a;
     font-size: 18px;
+}
+
+.caja .terminos p{
+text-align: left;
 }
 
 .caja h4{
@@ -603,7 +613,7 @@ footer .contenedor .caja{
 
 p{
     text-align: center;
-    background: #2c3e50;
+    color: #7a7a7a;
 }
 
 .derechos hr{
@@ -1122,6 +1132,10 @@ body{
 #boton{
     padding: 5px;
 }
+
+.caja .terminos p{
+    text-align: center;
+    }
                                             /* CONSULTAS */
 
 .consultas{
