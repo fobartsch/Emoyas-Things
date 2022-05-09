@@ -57,7 +57,6 @@ h1{
         display: flex;
         flex-direction: row;
         text-decoration: none;
-        
     }    
         
     .nav__lista {
@@ -66,7 +65,6 @@ h1{
         flex-direction: row;
         justify-content: space-between;
         margin-top: 125px;
-        
     }
    
         .nav__enlace{
