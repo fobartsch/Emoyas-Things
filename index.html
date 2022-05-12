@@ -5,15 +5,19 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+       <!--  <link href="https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        <link rel="stylesheet" href="./css/estilos.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">
         <title>Document</title>
 </head>
 <body>
 
-    <!-- HEADER DE LA PAGINA -->
+        <!-- HEADER DE LA PAGINA -->
 
     <header class="header">
 
@@ -22,11 +26,48 @@
         <img class="header__logo" src="./imagenes/logo.png" href="index.html" alt="Logo Emoyas Things"></a> 
        
 
-        <a href="#lateral" class="header__open">
-            <span class="jam jam-menu"></span>
-        </a>
-        
-        <nav class="nav" id="lateral">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+           <!--    <a class="navbar-brand" href="#">Navbar</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/fragancias.html">Fragancias</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/tejidos.html">Tejidos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./paginas/patrones.html">Patrones</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Emoyas Things</a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">FAQ</a></li>
+                      <li><a class="dropdown-item" href="#">Sobre Nosotros</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./paginas/contacto.html">Contactanos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item border-start border-2">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2 form-control--1" type="search" placeholder="Buscar Productos" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+<!--         <nav class="nav" id="lateral">
             <ul class="nav__lista">
                 <li><a class="nav__enlace" href="index.html"><button class="button"><h1> Home</h1></button></a></li>
                 <li><a class="nav__enlace" href="./paginas/fragancias.html"><button class="button"><h1>Fragancias</h1></button></a></li>
@@ -35,7 +76,7 @@
                 <li><a class="nav__enlace" href="./paginas/contacto.html"><button class="button"><h1>Contacto</h1></button></a></li>
                 <li><a class="nav__enlace" href="#"><span class="jam jam-close-circle-f" ></span></a></li>
             </ul>
-        </nav>
+        </nav> -->
         
 </header>    
 <main>
@@ -48,7 +89,7 @@
             
         <div class="tarjeta">
             <div class="cara frontal">
-                <img src="Imagenes/Textil Blue.jpg" alt="">
+                <img src="./imagenes/Textil Blue.jpg" alt="">
                 <h3>fragancias</h3>
             </div>
             <div class="cara trasera">
@@ -95,7 +136,27 @@
         <h2 class="seccion__titulo">Nuestras Ofertas</h2>
     </div>    
     
-    
+    <div class="container">
+        <div class="row">
+            <div class="col">col</div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./imagenes/Textil Blue.jpg"  class="card-img-top" alt="Fragancias">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+            <div class="col">col</div>
+        </div>
+    </div>
+
+  
+
+
+
     <div class="grid">
 
         <div class="grid__hijo grid__hijo--1">
@@ -131,7 +192,7 @@
         <div class="caja">
             <div class="logo__caja">
                 <a class="header__enlace" href="../index.html"> 
-                <img class="header__logo" src="../imagenes/logo.png" href="index.html" alt="Logo Emoyas Things"></a> 
+                <img class="header__logo" src="./imagenes/logo.png" href="index.html" alt="Logo Emoyas Things"></a> 
             </div>
             <div class="terminos">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad itaque, temporibus magni labore esse ea.</p>
@@ -164,7 +225,7 @@
         </div>   
             
         <a class="whatsapp" href="https://wa.me/+5491169450477" target="blank">
-        <img class="Boton-whatsApp" src="../imagenes/WhatsApp.png" width="45" height="45" alt="contactanos-por-WhatsApp"></a>
+        <img class="Boton-whatsApp" src="./imagenes/WhatsApp.png" width="45" height="45" alt="contactanos-por-WhatsApp"></a>
         
     </div>
 
@@ -173,6 +234,6 @@
 
 </footer>
     
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
