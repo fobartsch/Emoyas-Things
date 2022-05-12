@@ -2,7 +2,11 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+<<<<<<< HEAD
     /* font-family:  */
+=======
+    font-family: 
+>>>>>>> 70451ff76a3dd21d361452b35cb10c683d01d501
     text-decoration: none;
 }
 
@@ -59,7 +63,11 @@ h1{
     min-height: 80px;
 }
     
+<<<<<<< HEAD
                                                         /* HEAD */
+=======
+<<<<<<< HEAD
+>>>>>>> 70451ff76a3dd21d361452b35cb10c683d01d501
 .nav{
     display: flex;
     flex-direction: row;
@@ -149,7 +157,11 @@ h1{
 font-family: 'Playball', cursive;
 font-size: 1.6rem;
 }
+<<<<<<< HEAD
 
+=======
+=======
+>>>>>>> 70451ff76a3dd21d361452b35cb10c683d01d501
     .nav{
         display: flex;
         flex-direction: row;
@@ -172,8 +184,12 @@ font-size: 1.6rem;
             padding: 0px 15px;
                        
         }
+>>>>>>> 0e31670a4f184f7c2d32c5b1a78dba6399491b6e
 
+<<<<<<< HEAD
     
+=======
+>>>>>>> 70451ff76a3dd21d361452b35cb10c683d01d501
 
 
 
