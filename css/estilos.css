@@ -1233,7 +1233,7 @@ div .col{
     }
     
     .nav {
-        display: none;
+     /*    display: none; */
     }
     
   /*   .header__open {
@@ -1473,6 +1473,20 @@ width: 120px;
 
 h5{
     padding-top: 20px;
+}
+
+a.nav.nav-link{
+    font-size: 14px;
+
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+
+a.nav__enlace1{
+    font-size: 14px;
 }
                                             /* CONSULTAS */
 
