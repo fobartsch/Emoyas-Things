@@ -1,0 +1,140 @@
+.seccion {
+    width: 100%;
+    padding-top: 0rem;
+    justify-content: center;
+
+    .titulo2 h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-family:cursive;
+        font-size: 25px;
+        color:  $color-titulos-paginas; 
+        }
+
+    .grid2{
+        display: grid;
+        padding-top: 0rem;
+        grid-auto-rows: 350px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4,1fr);
+        grid-template-areas: 
+            "ele1 ele2 ele3 ele4"
+            "ele5 ele6 ele7 ele8"
+            "ele9 ele10 ele11 ele12"
+            "ele13 ele14 ele15 ele16";   
+        padding: 20px;
+        gap: 10px;
+
+        .grid__hijo1 {
+            border: 5px solid rgb(165, 164, 162);
+            color: #fff;
+            text-align: center;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 5px 8px 13px black;
+            cursor: pointer;
+            transition: all 0.3seg ease-in-out;
+            margin-top: 20px;
+            width:85%;
+            height: 80%;
+            &:hover{
+                transform: scale(1.1);
+                box-shadow: 13px 15px 37px black;
+                z-index: 10;
+                transition: .4s;
+            }
+            .grid__hijo--1 {
+                grid-area: ele1;
+            }
+            
+            .grid__hijo--2 {
+                grid-area: ele2;
+            }
+            
+            .grid__hijo--3 {
+                grid-area: ele3;
+            }
+            
+            .grid__hijo--4 {
+                grid-area: ele4;
+            }
+            
+            .grid__hijo--5 {
+                grid-area: ele5;
+            }
+            .grid__hijo--6 {
+                grid-area: ele6;
+            }
+            .grid__hijo--7 {
+                grid-area: ele7;
+            }
+            .grid__hijo--8 {
+                grid-area: ele8;
+            }
+            .grid__hijo--9 {
+                grid-area: ele9;
+            }
+            .grid__hijo--10 {
+                grid-area: ele10;
+            }
+            .grid__hijo--11 {
+                grid-area: ele11;
+            }
+            .grid__hijo--12 {
+                grid-area: ele12;
+            }
+            .grid__hijo--13 { 
+                grid-area: ele13;
+            }
+            .grid__hijo--14 {
+                grid-area: ele14;
+            }
+            .grid__hijo--15 {
+                grid-area: ele15;
+            }
+            .grid__hijo--16 {
+                grid-area: ele16;
+            }
+            .grid__texto {
+                position: absolute;
+                top: 95%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                background-color: rgba(0, 0, 0, 0.5);
+                color: #fff;
+                padding: 2px 1rem;
+                border-radius: 10px;
+                font-size: 15px;
+            }
+            .nav__enlace1{
+                text-decoration: none;
+                font-size: 16px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            .oferta{
+                top: 0% ;
+                left: 2%;
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.7);
+                border-radius: 7px;
+                font-size: 20px;
+            }
+           
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

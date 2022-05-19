@@ -1,0 +1,245 @@
+@media screen and (max-width: 600px) {
+
+                                         /* HEADER - BOOTSTRAP */
+   
+.nav-link{
+font-family: 'Playball', cursive;
+font-size: 15px;
+padding: 5px 0;
+}
+
+.d-flex{
+    display: none! important;
+}    
+
+.navbar-nav .border-start{
+    display: none! important;
+} 
+
+                                                 /* FRAGANCIAS */
+.grid1{
+display: grid;
+padding-top: 0rem;
+grid-template-columns: repeat(1, 1fr);
+grid-template-areas: 
+    "ele1" 
+    "ele2"
+    "ele3"
+    "ele4"
+    "ele5"
+    "ele6"
+    "ele7"
+    "ele8"
+    "ele9"
+    "ele10"
+    "ele11"
+    "ele12"
+    "ele13"
+    "ele14"
+    "ele15"
+    "ele16";   
+padding: 20px;
+gap: 10px;
+}
+.grid__imagen{
+width: 100%;
+height: 100%;
+}
+
+.titulo{
+width: 100%;
+height: 30px;
+background: grey;
+}
+
+h2{
+font-size: 18px;
+}
+
+
+
+                                    /* TEJIDOS    */
+
+.grid2{
+display: grid;
+padding-top: 0rem;
+grid-template-columns: repeat(1, 1fr);
+grid-template-areas: 
+    "ele1" 
+    "ele2"
+    "ele3"
+    "ele4"
+    "ele5"
+    "ele6"
+    "ele7"
+    "ele8"
+    "ele9"
+    "ele10"
+    "ele11"
+    "ele12"
+    "ele13"
+    "ele14"
+    "ele15"
+    "ele16";   
+padding: 20px;
+gap: 10px;
+}
+.grid__imagen{
+width: 100%;
+height: 100%;
+}
+
+                                        /* PATRONES */
+
+.grid3{
+display: grid;
+padding-top: 0rem;
+grid-template-columns: repeat(1, 1fr);
+grid-template-areas: 
+    "ele1" 
+    "ele2"
+    "ele3"
+    "ele4"
+    "ele5"
+    "ele6"
+    "ele7"
+    "ele8";   
+gap: 10px;
+width: 80%;
+height: 80%;
+
+}
+
+.grid__hijo2 {
+    width: 100%;
+height: 100%;
+align-items: center;
+}
+
+
+                                                            /* FOTTER */  
+
+.contenedor{
+flex-direction: column;
+align-items: center;
+padding-top: 5px;
+}
+
+body{
+min-width: 400px;
+}
+
+.boton-whatsapp{
+width: 5px;
+}
+.caja input{
+    padding: 15px;
+}
+
+#boton{
+padding: 5px;
+}
+
+.caja .terminos p{
+text-align: center;
+}
+
+p{
+text-align: center;
+color: #7a7a7a;
+}
+
+.caja .terminos p{
+text-align: left;
+}
+
+                                        /*  FOOTER - BOOTSTRAP */
+img .header__logo{
+width: 120px;
+}
+.row{
+text-align: center!important;
+align-items: center!important;
+}
+
+h5{
+padding-top: 20px;
+}
+
+a.nav.nav-link{
+font-size: 14px;
+
+}
+
+.nav-link{
+font-size: 20px;
+}
+
+
+a.nav__enlace1{
+font-size: 14px;
+}
+                                        /* CONSULTAS */
+
+.consultas{
+margin-top: 3%;
+text-align: center;
+}
+
+.consultas form{
+width: 350px;
+margin: auto;
+background: rgba(0, 0, 0,0.4);
+padding: 10px 20px;
+box-sizing: border box;
+margin-top: 10px;
+border-radius: 7px;
+}
+
+h4{
+font-size: 25px;
+margin-bottom: 10px;
+}
+input, textarea{
+width: 90%;
+margin-bottom: 15px;
+padding: 5px;
+font-size: 13px;
+
+}
+textarea{
+min-height: 80px;
+max-height: 1500px;
+max-width: 100%;
+}
+h5{
+font-size: 20px;
+}
+.nav_link{
+font-size: .5rem;
+}
+.row{
+flex-direction: column;
+align-items: center;
+padding-top: 5px;
+align-items: center;
+}
+
+div .col{
+font-size: 5px;
+}
+
+.text-muted{
+font-size: 15px;
+}
+.d-flex p{
+margin-left: 120px;
+}
+img .header__logo{
+align-items: center;
+}
+.nav__enlace1{
+font-size: 12px;
+}
+
+}
