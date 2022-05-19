@@ -1,0 +1,140 @@
+.row1{
+    padding: 0%;
+    margin: 0%;
+    padding-bottom: 50px;
+        
+}
+.btn1{
+    width: 100px;
+    padding: 0%;
+    margin-right: 20px;
+    border-radius: 10px;
+    height: 35px;
+    
+}
+
+.btn2{
+    width: 110px;
+    padding: 0%;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 35px;
+}
+
+div .card-body{
+    padding:  0 1rem 10px;
+    border-radius: 15px;
+    background-color: #a7c0e5;
+    align-items:flex-end ;
+    
+    }
+
+.card{
+    border-radius: 5%;
+    display:inline-block;
+    margin: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.card-img-top{
+    padding-top: 5px;
+    text-align: center;
+    align-items: center;
+    margin:0;
+}
+
+
+.img-fluid{
+    border-radius: 5%;
+}
+
+.card .text-danger{
+    text-transform: uppercase;
+}
+
+/* .animate__animated.animate__lightSpeedInLeft{
+    animation-name: bounceInLeft, animate__shakeX, bounceOutRight;
+    animation-duration: 4s, 3s, 4s;
+    animation-iteration-count: infinite;
+}  */
+
+.card-body .text-danger{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.card-body .text-muted{
+    font-size: 28px;
+}
+
+/* span .preciofinal{
+    font-size: 25px;
+} */
+
+.card-body.text-secundario{
+    font-size: 5px;
+}
+
+.card-body h4{
+   font-size: 22px;
+}
+
+.card-body h5{
+    padding-top: 5px;
+}
+
+
+.titulo1{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #9ca4ac;
+    width: 100%;
+    justify-content: center;
+}
+.titulo1 p{
+    text-align: center;
+    text-transform: uppercase;
+    font-family:cursive;
+    font-size: 25px;
+    color:  #2c3c54 ; 
+    animation-name: flash;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.boton{
+    display: flex;
+    justify-content:center;
+}
+
+
+
+/* .col:hover{
+    transform: scale(1.15);
+    /* box-shadow: 13px 15px 37px black; */
+/*     z-index: 10;
+    transition: .8s; 
+    
+    transform: scale(1.2) rotate(360deg) translate(10px); */
+/* -webkit-box-shadow: 18px 11px 23px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: 18px 11px 23px 4px rgba(0,0,0,0.75); */
+/* box-shadow: 18px 11px 23px 4px rgba(0,0,0,0.75);
+border-radius: 22px 22px 22px 22px;
+-moz-border-radius: 22px 22px 22px 22px;
+-webkit-border-radius: 22px 22px 22px 22px;
+border: 0px solid #000000;  */
+/* }     */
+
+p .text-success{
+    margin: 0;
+}
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .img{
+    border-radius: 5%;
+}
+ 
