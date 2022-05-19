@@ -1,0 +1,83 @@
+
+                                                        /* MAIN */
+@media screen and (max-width: 1023px) {
+
+.grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas: 
+        "ele1 ele2" 
+        "ele3 ele4";   
+    padding: 20px;
+    gap: 10px;
+    
+}
+
+.grid__imagen{
+    height: 100%;
+}
+.nav__enlace1{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+                                           /* FRAGANCIAS */
+    
+.grid1{
+display: grid;
+padding-top: 0rem;
+/* grid-auto-rows: 350px; */
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2,1fr);
+grid-template-areas: 
+    "ele1 ele2"
+    "ele3 ele4"
+    "ele5 ele6"
+    "ele7 ele8"
+    "ele9 ele10"
+    "ele11 ele12"
+    "ele13 ele14"
+    "ele15 ele16";   
+padding: 20px;
+gap: 10px;
+}
+.grid__imagen{
+height: 100%;
+}
+
+.titulo{
+width: 100%;
+height: 30px;
+background: grey;
+}
+
+h2{
+font-size: 20px;
+}
+
+                                            /* TEJIDOS */
+
+.grid2{
+display: grid;
+padding-top: 0rem;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2,1fr);
+grid-template-areas: 
+"ele1 ele2"
+"ele3 ele4"
+"ele5 ele6"
+"ele7 ele8"
+"ele9 ele10"
+"ele11 ele12"
+"ele13 ele14"
+"ele15 ele16";   
+padding: 20px;
+gap: 10px;
+}
+}
