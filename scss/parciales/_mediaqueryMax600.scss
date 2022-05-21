@@ -16,6 +16,12 @@ padding: 5px 0;
     display: none! important;
 } 
 
+                                            /* MAIN OFERTAS */
+
+/* .row1{
+    display:block;
+} */
+
                                                  /* FRAGANCIAS */
 .grid1{
 display: grid;
@@ -168,16 +174,22 @@ padding-top: 20px;
 
 a.nav.nav-link{
 font-size: 14px;
-
 }
 
 .nav-link{
 font-size: 20px;
 }
 
-
 a.nav__enlace1{
 font-size: 14px;
+}
+
+.form p{
+    text-align: center;
+}
+
+.col p{
+    font-size: 12px; /* (Tamaño de letra de Derechos Reservados) */
 }
                                         /* CONSULTAS */
 
@@ -241,5 +253,6 @@ align-items: center;
 .nav__enlace1{
 font-size: 12px;
 }
+
 
 }

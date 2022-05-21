@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0px;
   margin: 0px;
@@ -1608,17 +1609,21 @@ p {
     /* text-align: center!important;
 align-items: center!important; */
     font-size: 15px;
+    text-align: center;
   }
   h5 {
     font-size: 18px;
-    padding-top: 25px;
-    margin-top: 25px;
+    padding-top: 20px;
+    margin-top: 0px;
   }
   .d-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  /* .col-sm-6{
+  text-align: center;
+} */
 }
 
 @media screen and (max-width: 600px) {
@@ -1634,6 +1639,10 @@ align-items: center!important; */
   .navbar-nav .border-start {
     display: none !important;
   }
+  /* MAIN OFERTAS */
+  /* .row1{
+    display:block;
+} */
   /* FRAGANCIAS */
   .grid1 {
     display: grid;
@@ -1730,6 +1739,13 @@ align-items: center!important; */
   }
   a.nav__enlace1 {
     font-size: 14px;
+  }
+  .form p {
+    text-align: center;
+  }
+  .col p {
+    font-size: 12px;
+    /* (Tamaño de letra de Derechos Reservados) */
   }
   /* CONSULTAS */
   .consultas {
