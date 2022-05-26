@@ -1,4 +1,6 @@
 .row1{
+    display: flex;
+    flex-wrap: wrap;
     padding: 0%;
     margin: 0%;
     padding-bottom: 50px;
@@ -14,10 +16,11 @@
 }
 
 .btn2{
+    @extend.btn1;
     width: 110px;
-    padding: 0%;
+    /* padding: 0%;
     margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 10px; */
     height: 35px;
 }
 
@@ -128,10 +131,6 @@ border: 0px solid #000000;  */
 
 p .text-success{
     margin: 0;
-}
-.row1{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .card .img{

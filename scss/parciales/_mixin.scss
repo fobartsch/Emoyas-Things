@@ -1,0 +1,14 @@
+@mixin generarFlex ($direction, $eje-principal, $eje-secundario){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $eje-principal;
+    align-items: $eje-secundario;
+}
+
+.header{ 
+    @include generarFlex(row, space-between, center);
+}
+
+.nav__lista{
+    @include generarFlex(row, space-between, center);
+}

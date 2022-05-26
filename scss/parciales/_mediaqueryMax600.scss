@@ -184,12 +184,16 @@ a.nav__enlace1{
 font-size: 14px;
 }
 
-.form p{
-    text-align: center;
+form p{
+    text-align: center!important;
 }
 
 .col p{
     font-size: 12px; /* (Tamaño de letra de Derechos Reservados) */
+}
+
+.suscribirte{
+    display: flex;
 }
                                         /* CONSULTAS */
 
