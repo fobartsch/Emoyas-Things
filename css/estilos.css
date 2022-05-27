@@ -1571,9 +1571,10 @@ p {
     font-size: 15px;
     padding: 5px 0;
   }
-  .d-flex {
-    display: none !important;
-  }
+  /* 
+    .d-flex{
+        display: none! important;
+    }     */
   .navbar-nav .border-start {
     display: none !important;
   }
