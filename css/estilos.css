@@ -545,7 +545,10 @@ h5 {
   /*  grid-auto-rows: 350px; */
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8" "ele9 ele10 ele11 ele12" "ele13 ele14 ele15 ele16";
+  grid-template-areas: "ele1 ele2 ele3 ele4"
+ "ele5 ele6 ele7 ele8"
+ "ele9 ele10 ele11 ele12"
+ "ele13 ele14 ele15 ele16";
   padding-bottom: 60px;
   gap: 10px;
 }
@@ -711,7 +714,10 @@ h5 {
   grid-auto-rows: 350px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8" "ele9 ele10 ele11 ele12" "ele13 ele14 ele15 ele16";
+  grid-template-areas: "ele1 ele2 ele3 ele4"
+ "ele5 ele6 ele7 ele8"
+ "ele9 ele10 ele11 ele12"
+ "ele13 ele14 ele15 ele16";
   padding: 20px;
   gap: 10px;
 }
@@ -841,7 +847,10 @@ h5 {
   grid-auto-rows: 350px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8";
+  grid-template-areas: "ele1 ele2"
+ "ele3 ele4"
+ "ele5 ele6"
+ "ele7 ele8";
   padding: 20px;
   gap: 10px;
 }
@@ -1126,7 +1135,10 @@ textarea {
   /*  grid-auto-rows: 350px; */
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8" "ele9 ele10 ele11 ele12" "ele13 ele14 ele15 ele16";
+  grid-template-areas: "ele1 ele2 ele3 ele4"
+ "ele5 ele6 ele7 ele8"
+ "ele9 ele10 ele11 ele12"
+ "ele13 ele14 ele15 ele16";
   padding-bottom: 60px;
   gap: 10px;
 }
@@ -1137,7 +1149,10 @@ textarea {
   grid-auto-rows: 350px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-template-areas: "ele1 ele2 ele3 ele4" "ele5 ele6 ele7 ele8" "ele9 ele10 ele11 ele12" "ele13 ele14 ele15 ele16";
+  grid-template-areas: "ele1 ele2 ele3 ele4"
+ "ele5 ele6 ele7 ele8"
+ "ele9 ele10 ele11 ele12"
+ "ele13 ele14 ele15 ele16";
   padding: 20px;
   gap: 10px;
 }
@@ -1148,7 +1163,10 @@ textarea {
   grid-auto-rows: 350px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8";
+  grid-template-areas: "ele1 ele2"
+ "ele3 ele4"
+ "ele5 ele6"
+ "ele7 ele8";
   padding: 20px;
   gap: 10px;
 }
@@ -1600,7 +1618,10 @@ p {
     padding-top: 0rem;
     /* grid-auto-rows: 350px; */
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "ele1"  "ele2"  "ele3" "ele4";
+    grid-template-areas: "ele1" 
+ "ele2" 
+ "ele3"
+ "ele4";
     padding: 20px;
     gap: 10px;
     align-items: center;
@@ -1622,7 +1643,8 @@ p {
   .grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "ele1 ele2"  "ele3 ele4";
+    grid-template-areas: "ele1 ele2" 
+ "ele3 ele4";
     padding: 20px;
     gap: 10px;
   }
@@ -1645,7 +1667,14 @@ p {
     /* grid-auto-rows: 350px; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8" "ele9 ele10" "ele11 ele12" "ele13 ele14" "ele15 ele16";
+    grid-template-areas: "ele1 ele2"
+ "ele3 ele4"
+ "ele5 ele6"
+ "ele7 ele8"
+ "ele9 ele10"
+ "ele11 ele12"
+ "ele13 ele14"
+ "ele15 ele16";
     padding: 20px;
     gap: 10px;
   }
@@ -1666,7 +1695,14 @@ p {
     padding-top: 0rem;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "ele1 ele2" "ele3 ele4" "ele5 ele6" "ele7 ele8" "ele9 ele10" "ele11 ele12" "ele13 ele14" "ele15 ele16";
+    grid-template-areas: "ele1 ele2"
+ "ele3 ele4"
+ "ele5 ele6"
+ "ele7 ele8"
+ "ele9 ele10"
+ "ele11 ele12"
+ "ele13 ele14"
+ "ele15 ele16";
     padding: 20px;
     gap: 10px;
   }
@@ -1676,7 +1712,8 @@ p {
   .grid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-template-areas: "ele1 ele2"  "ele3 ele4";
+    grid-template-areas: "ele1 ele2" 
+ "ele3 ele4";
     padding: 20px;
     gap: 10px;
     width: auto;
@@ -1788,7 +1825,22 @@ align-items: center!important; */
     display: grid;
     padding-top: 0rem;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "ele1"  "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8" "ele9" "ele10" "ele11" "ele12" "ele13" "ele14" "ele15" "ele16";
+    grid-template-areas: "ele1" 
+ "ele2"
+ "ele3"
+ "ele4"
+ "ele5"
+ "ele6"
+ "ele7"
+ "ele8"
+ "ele9"
+ "ele10"
+ "ele11"
+ "ele12"
+ "ele13"
+ "ele14"
+ "ele15"
+ "ele16";
     padding: 20px;
     gap: 10px;
   }
@@ -1809,7 +1861,22 @@ align-items: center!important; */
     display: grid;
     padding-top: 0rem;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "ele1"  "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8" "ele9" "ele10" "ele11" "ele12" "ele13" "ele14" "ele15" "ele16";
+    grid-template-areas: "ele1" 
+ "ele2"
+ "ele3"
+ "ele4"
+ "ele5"
+ "ele6"
+ "ele7"
+ "ele8"
+ "ele9"
+ "ele10"
+ "ele11"
+ "ele12"
+ "ele13"
+ "ele14"
+ "ele15"
+ "ele16";
     padding: 20px;
     gap: 10px;
   }
@@ -1822,7 +1889,14 @@ align-items: center!important; */
     display: grid;
     padding-top: 0rem;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "ele1"  "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
+    grid-template-areas: "ele1" 
+ "ele2"
+ "ele3"
+ "ele4"
+ "ele5"
+ "ele6"
+ "ele7"
+ "ele8";
     gap: 10px;
     width: 80%;
     height: 80%;
