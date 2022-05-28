@@ -237,7 +237,7 @@ font-size: .5rem;
 .row{
 flex-direction: column;
 align-items: center;
-padding-top: 5px;
+padding-top: 0px;
 align-items: center;
 }
 
@@ -248,12 +248,7 @@ font-size: 5px;
 .text-muted{
 font-size: 15px;
 }
-.d-flex p{
-margin-left: 120px;
-}
-img .header__logo{
-align-items: center;
-}
+
 .nav__enlace1{
 font-size: 12px;
 }

@@ -13,13 +13,22 @@ a img{
 
 
 .row{
-    background: $background-header-footer;
     margin-bottom:0!important;
     margin: auto;
+    background: #2c3e50;
+    background: url(/imagenes/fondo_footer1.png);
+    width: 100%;
+    background-size: cover;
 }
 
 .row p{
     color: #6a8bac;
+    text-align: justify;
+    padding-bottom: 0px;
+}
+
+p{
+    margin-bottom: 5px;
 }
 
 .form-control{
@@ -35,6 +44,7 @@ a img{
 .nav-link{
     border-radius: 5px;
     font-size: 22px;
+    text-align: left;
     
 }
 
@@ -44,6 +54,11 @@ a img{
     z-index: 10;
     transition: .4s;
 } 
+
+.nav{
+    text-align: left;
+    
+}
 
 form p {
     border-radius: 5px;
@@ -56,15 +71,13 @@ img .header__logo{
 
 .col p{
     text-align: center;
-    padding: 10px 0px;
+    padding: 5px 0px;
     margin: 0%;
 }
-
 
 .nav a{
     color: #6a8bac;
 }
-
 
 h5{
     padding-top: 20px;
@@ -72,4 +85,18 @@ h5{
  
 }
                                         
+.header__logo1{
+    width:130px;
+    margin-top: 10px;
+   
+}
 
+.header__logo1 img{
+    align-items: center;
+    text-align: center;
+}
+
+.col-lg-2{
+    text-align: center;
+    align-items: center;
+}
