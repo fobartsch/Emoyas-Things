@@ -36,8 +36,8 @@ h1 {
   align-items: center;
   /*  flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    background-color: #2c3e50; */
+    align-items: center; */
+  background-color: #2c3e50;
   padding: 1rem 5px;
   display: flex;
   width: 100%;
@@ -432,6 +432,10 @@ p .text-success {
 
 .card .img {
   border-radius: 5%;
+}
+
+.container-fluid {
+  overflow: hidden;
 }
 
 .whatsapp {
@@ -1018,85 +1022,85 @@ textarea {
 }
 
 /* HEADER DE LA PAGINA */
-.header {
-  background-color: #2c3e50;
-  padding: 1rem 5px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+/*     .header {
+    background-color: #2c3e50;
+    padding: 1rem 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
 }
 
-.header__logo {
-  margin-top: 10px;
+.header__logo{
+    margin-top: 10px;
 }
 
-.logo {
-  width: 200px;
-  min-height: 80px;
+.logo{
+    width: 200px;
+    min-height: 80px;
 }
 
-.header__logo {
-  width: 150px;
-  min-height: 80px;
+.header__logo{
+    width: 150px;
+    min-height: 80px;
 }
-
-.nav {
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-}
-
+    
+.nav{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+}    
+    
 .nav__lista {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 125px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 125px;
+    
 }
 
-.nav__enlace {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 0px 15px;
+.nav__enlace{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0px 15px;
+                
 }
 
-.button {
-  border: 0;
-  font-size: 15px;
-  font-weight: 300;
-  background: transparent;
-  border-radius: 30px;
-  text-transform: uppercase;
-  color: white;
-  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 0.4s;
-  outline: 0;
+.button{
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    background: transparent;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: white;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .4s;
+    outline: 0;
 }
 
-.button:hover {
-  cursor: pointer;
-  transform: translate3d(-3px, -3px, -3px);
-  color: #aa5e5e;
-  /* border-bottom: 3px solid #aa5e5e; */
-  /*  padding-bottom: 5px; */
-  text-decoration: underline;
+.button:hover{
+    cursor: pointer;
+    transform: translate3d(-3px, -3px, -3px);
+    color: #aa5e5e;
+    text-decoration: underline;
 }
 
-.button:active {
-  transform: translate3d(3px, 3px, 3px);
+.button:active{
+    transform: translate3d(3px, 3px, 3px);
 }
 
 .header__open {
-  display: none;
+    display: none;
 }
 
-.nav__lista .jam {
-  display: none;
-}
-
+.nav__lista .jam{
+    display: none;
+} */
 /* HEADER - BOOTSTRAP */
 /* BIENVENIDOS A EMOYAS THINGS */
 /* HOME - SECCION OFERTAS  */
