@@ -1,55 +1,22 @@
 
 @media screen and (max-width: 800px) {
 
-.grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: 
-        "ele1 ele2" 
-        "ele3 ele4";   
-    padding: 20px;
-    gap: 10px;
-    width: auto;
-}
-.contenedor{
-    flex-direction: column;
+  .card1 .card-body1{
+    position: relative;
+    width: 60%;
+    left: 35%;
+    top: 40%;
+  }
+
+  .btn3{
+    width:auto;
+  }
+
+  .d-flex1{
+    display:flex;
     align-items: center;
-    padding-top: 20px;
-}
-
-.caja{
-  padding: 5px;
-  width: auto;
-}
-
-.caja h4{
-  margin-bottom: 10px;
-  color: #343434;
-  font-weight: 700;
-  font-size: 20px;
-  
-}
-.caja .terminos{
-  max-width: 300px;
-  margin-top: 20px;
-  font-weight: 500;
-  color: #7a7a7a;
-  font-size: 15px;
-}
-.boton-whatsapp{
-  width: 8px;
-}
-
-.logo__caja img{
-  width: 100px;
-}
-h5{
-  font-size: 18px;
-}
-.caja .nav__enlace1{
-  font-size: 15px;
-}
-
+    justify-content: space-around;
+   }
 
                                     /*  FOOTER - BOOTSTRAP  */
 

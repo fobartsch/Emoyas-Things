@@ -23,47 +23,54 @@ padding: 5px 0;
 } */
 
                                                  /* FRAGANCIAS */
-.grid1{
-display: grid;
-padding-top: 0rem;
-grid-template-columns: repeat(1, 1fr);
-grid-template-areas: 
-    "ele1" 
-    "ele2"
-    "ele3"
-    "ele4"
-    "ele5"
-    "ele6"
-    "ele7"
-    "ele8"
-    "ele9"
-    "ele10"
-    "ele11"
-    "ele12"
-    "ele13"
-    "ele14"
-    "ele15"
-    "ele16";   
-padding: 20px;
-gap: 10px;
+.contenido .imgbox img{
+min-width: 200px;
 }
-.grid__imagen{
+
+.contenido .imgbox{
+width:400px;
+}
+
+section{
+padding: 20px 40px;
+min-height: 0;
+}
+
+.contenido .texto h3{
+color: #fff;
+font-size: 15x;
+}  
+
+.contenido .texto p{
+color: #fff;
+font-size: 15px;
+}
+
+.contenido .texto{
+color: #fff;
+font-size: 25px;
+margin-bottom: 0px;
+
+}
+
+.swiper {
 width: 100%;
-height: 100%;
+padding-top: 30px;
+padding-bottom: 0;
+}
+                                               
+section .circulo{
+    clip-path: circle(80% at right -10%);
 }
 
-.titulo{
-width: 100%;
-height: 30px;
-background: grey;
+/* BOTONES de las cards ya que hay otro btn en el footer con un valor de 100% que molesta */
+.btn3{
+    width:auto;
 }
-
-h2{
-font-size: 18px;
+/* Para que no se vea la linea blanca */
+.titulo2{
+    padding-bottom: -1px;
 }
-
-
-
                                     /* TEJIDOS    */
 
 .grid2{
