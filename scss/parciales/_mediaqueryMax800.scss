@@ -1,23 +1,34 @@
 
 @media screen and (max-width: 800px) {
 
-  .card1 .card-body1{
-    position: relative;
-    width: 60%;
-    left: 35%;
-    top: 40%;
+                            /* Fragancias Main 2 */
+.card1 .card-body1{
+  position: relative;
+  width: 60%;
+  left: 35%;
+  top: 40%;
+}
+
+.btn1{
+  width:auto;
+}
+
+.d-flex1{
+  display:flex;
+  align-items: center;
   }
 
-  .btn3{
-    width:auto;
-  }
+.titulo2{
+  margin-bottom: -4px;
+}
 
-  .d-flex1{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-   }
+.card1{
+    margin-top: 40px;
+}
 
+.col-12{
+  margin-top: 30px;
+}
                                     /*  FOOTER - BOOTSTRAP  */
 
 img .header__logo1{

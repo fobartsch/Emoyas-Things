@@ -669,6 +669,11 @@ section .circulo {
   background-image: none;
 }
 
+.wave {
+  margin-top: -1px;
+  margin-bottom: -4px;
+}
+
 .titulo2 {
   display: flex;
   flex-wrap: wrap;
@@ -769,7 +774,7 @@ section .circulo {
 
 .d-flex {
   padding: 0;
-  justify-content: space-evenly;
+  /* justify-content:space-evenly; */
 }
 
 .d-flex1 {
@@ -1748,6 +1753,12 @@ p {
   .swiper-slide img {
     display: inline-block;
   }
+  .col-xl-6 {
+    margin-top: 30px;
+  }
+  .titulo2 {
+    margin-bottom: -2px;
+  }
   /* ENCABEZADO BIENVENIDO A EMOYAS THINGS */
   .titulo {
     width: 100%;
@@ -1770,19 +1781,28 @@ p {
 }
 
 @media screen and (max-width: 800px) {
+  /* Fragancias Main 2 */
   .card1 .card-body1 {
     position: relative;
     width: 60%;
     left: 35%;
     top: 40%;
   }
-  .btn3 {
+  .btn1, .btn2 {
     width: auto;
   }
   .d-flex1 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+  }
+  .titulo2 {
+    margin-bottom: -4px;
+  }
+  .card1 {
+    margin-top: 40px;
+  }
+  .col-12 {
+    margin-top: 30px;
   }
   /*  FOOTER - BOOTSTRAP  */
   img .header__logo1 {
@@ -1890,7 +1910,10 @@ align-items: center!important; */
   }
   /* Para que no se vea la linea blanca */
   .titulo2 {
-    padding-bottom: -1px;
+    margin-bottom: -1px;
+  }
+  .card1 {
+    margin-top: 40px;
   }
   /* TEJIDOS    */
   .grid2 {
