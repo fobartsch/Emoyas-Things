@@ -481,7 +481,7 @@ h2{
 }
 
 .btn1, .btn2 {
-  width: 100px;
+  width: 120px;
   padding: 0%;
   margin-right: 20px;
   border-radius: 10px;
@@ -489,7 +489,7 @@ h2{
 }
 
 .btn2 {
-  width: 110px;
+  width: 120px;
   /* padding: 0%;
     margin-left: 10px;
     border-radius: 10px; */
@@ -1141,6 +1141,8 @@ main {
   padding-bottom: 40px;
   background: #205375;
   padding-top: 140px;
+  /* background: rgb(67,169,235);
+  background: linear-gradient(0deg, rgba(67,169,235,1) 0%, rgba(0,0,0,1) 100%); */
 }
 
 /* body{
@@ -1164,20 +1166,19 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 92vh;
 }
 
 .products_body .wrapper {
-  width: 450px;
-  height: 500px;
+  width: 350px;
+  height: 400px;
   background: transparent;
-  margin: auto;
+  margin: 50px;
   position: relative;
   overflow: hidden;
   border-radius: 10px 10px 10px 10px;
   transform: scale(0.93);
   transition: box-shadow 0.5s, transform 0.5s;
-  z-index: 1000;
+  /* z-index: 1000; */
 }
 
 .products_body .wrapper:hover {
@@ -2123,6 +2124,10 @@ p {
   }
   .nav__lista {
     margin-right: 0;
+    margin-top: 0;
+  }
+  ul {
+    margin-bottom: 0;
   }
   /* FRAGANCIAS */
   .section {
@@ -2173,9 +2178,6 @@ p {
     width: 60%;
     left: 35%;
     top: 40%;
-  }
-  .btn1, .btn2 {
-    width: auto;
   }
   .d-flex1 {
     display: flex;
@@ -2253,6 +2255,9 @@ align-items: center!important; */
     font-size: 20px;
     letter-spacing: 0.3rem;
   }
+  .wave {
+    height: 50px;
+  }
   .nav-link {
     font-family: 'Playball', cursive;
     font-size: 15px;
@@ -2313,34 +2318,6 @@ min-height: 0;
   }
   .card1 {
     margin-top: 40px;
-  }
-  /* TEJIDOS    */
-  .grid2 {
-    display: grid;
-    padding-top: 0rem;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "ele1"  "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8" "ele9" "ele10" "ele11" "ele12" "ele13" "ele14" "ele15" "ele16";
-    padding: 20px;
-    gap: 10px;
-  }
-  .grid__imagen {
-    width: 100%;
-    height: 100%;
-  }
-  /* PATRONES */
-  .grid3 {
-    display: grid;
-    padding-top: 0rem;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "ele1"  "ele2" "ele3" "ele4" "ele5" "ele6" "ele7" "ele8";
-    gap: 10px;
-    width: 80%;
-    height: 80%;
-  }
-  .grid__hijo2 {
-    width: 100%;
-    height: 100%;
-    align-items: center;
   }
   /* FOTTER */
   .contenedor {
