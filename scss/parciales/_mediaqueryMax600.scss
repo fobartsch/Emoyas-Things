@@ -1,26 +1,42 @@
 @media screen and (max-width: 600px) {
 
                                          /* HEADER - BOOTSTRAP */
-   
+
+main{
+    padding-top: 90px;
+}     
+
+.titulo{
+    margin-bottom: 0;
+}
+
+main .titulo h2{
+    font-size: 20px;
+    letter-spacing: 0.3rem;
+}
+
 .nav-link{
 font-family: 'Playball', cursive;
 font-size: 15px;
 padding: 5px 0;
 }
 
-/* .d-flex{
-    display: none! important;
-}     */
 
 .navbar-nav .border-start{
     display: none! important;
 } 
 
-                                            /* MAIN OFERTAS */
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding:  30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+  }
 
-/* .row1{
-    display:block;
-} */
 
                                                  /* FRAGANCIAS */
 .contenido .imgbox img{
@@ -31,10 +47,10 @@ min-width: 200px;
 width:400px;
 }
 
-section{
+/* section{
 padding: 20px 40px;
 min-height: 0;
-}
+} */
 
 .contenido .texto h3{
 color: #fff;

@@ -2,32 +2,27 @@
                                                         /* MAIN */
 @media screen and (max-width: 1023px) {
 
-
-
-.grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    grid-template-areas: 
-        "ele1 ele2" 
-        "ele3 ele4";   
-    padding: 20px;
-    gap: 10px;
-    
+.header {
+    flex-direction:column;
 }
 
-.grid__imagen{
-    height: 100%;
-}
-.nav__enlace1{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.header__logo{
+    margin-right: 0;
 }
 
-h2{
-    font-size: 20px;
+img.header__marca.fade-in{
+    margin: 0;
+    padding: 0;
 }
+.nav{
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.nav__lista{
+    margin-right: 0;
+}
+
 
                                            /* FRAGANCIAS */
     
@@ -74,26 +69,5 @@ margin-bottom: 30px;
 h2{
 font-size: 20px;
 }
-
-                                            /* TEJIDOS */
-
-.grid2{
-display: grid;
-padding-top: 0rem;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2,1fr);
-grid-template-areas: 
-"ele1 ele2"
-"ele3 ele4"
-"ele5 ele6"
-"ele7 ele8"
-"ele9 ele10"
-"ele11 ele12"
-"ele13 ele14"
-"ele15 ele16";   
-padding: 20px;
-gap: 10px;
-}
-
 
 }

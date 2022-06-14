@@ -1,14 +1,185 @@
 
 .header {
-    @include generarFlex(row, space-between, center);
-   /*  flex-direction: row;
+    background-color: #2c3e50;
+    opacity: 95%;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
+    width: 100%;
+    top: 0;    
+
+    &__marca {
+        height: auto;
+        align-content: center;
+    }
+    
+    &__logo {
+        width: 140px;
+        height: auto;
+        align-self: center;
+        margin-left: 1rem;
+    }
+
+    &__open {
+        display: none;
+    }
+}
+
+.jam-close-rectangle {
+    display: none;
+}
+
+
+
+.nav {
+    padding: 1rem;
+    letter-spacing: 2px;
+    justify-content: space-evenly;
+    
+
+    &__lista {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 10px;
+    
+    }
+    
+    
+    &__item {
+        margin-left: 16px;
+    }
+    
+    &__item h1{
+        font-size: 25px;
+        color: #fff;
+    }
+
+    &__enlace {
+        color: #fff; 
+        text-decoration: none;
+        position: relative;
+
+        &:after {
+            content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: aliceblue;
+        /*Animacion de derecha a izquierda*/ 
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+        }
+
+        &:hover h1{
+            color: rgb(190, 53, 29);
+        }
+
+        &:hover:after {
+            /*Tnimacion de dercha a izquierda*/
+        transform-origin: left;
+        transform: scaleX(1);
+        }
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+
+.header {
+    width: 100%;
+    flex-direction: row!important;
+    height: 90px;
+    
+}
+
+.header__open {
+    margin-right: 1rem;
+    display: block;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.header__logo {
+    width:70%;
+    height: auto;
+    margin-left: 1rem;
+    padding-top: 0;
+}
+
+.jam-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lateral {
+    display: block;
+    background:  #2c3e50;
+    background-image: linear-gradient(to bottom, #2c3e50, #d7e6ef );
+    /* background-image: linear-gradient(to bottom, #2991d6, #d7e6ef ); */
+    width: 60%;
+    height: 100vh;
+    opacity: 0.96; 
+   position: fixed;
+   top: 0;
+   right: -100%;
+   z-index: 10;
+   transition: right 1.5s;
+   padding-left: 5%;
+   padding-top: 5%;
+}
+
+#lateral:target {
+    right: 20;
+    display: block;
+    
+}
+
+
+.nav__lista {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: relative;
+    padding-left: 0;
+    line-height: 2.5rem;
+
+}
+
+.jam-menu:hover {
+    color: white;
+}
+
+.jam-close-rectangle {
+    font-size: 20px;
+    display: block!important;
+    color: #fff;
+    transition: none;
+}
+
+
+}
+
+/* .header {
+    @include generarFlex(row, space-between, center);
     background-color: #2c3e50;
     padding: 0;
     display: flex;
     width:100%;
-    /* line-height: 0%; */
+    
 }
 
 .logo{
@@ -31,9 +202,6 @@
     
 .nav__lista {
     @include generarFlex(row, space-between, center);
-   /*  display: flex;
-    flex-direction: row;
-    justify-content: space-between; */
     list-style: none;
     margin-top: 125px;
 }
@@ -44,8 +212,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     padding: 0px 15px;
-                
-}
+} */
 
 /* .button{
     border: 0;
@@ -72,7 +239,7 @@
     transform: translate3d(3px, 3px, 3px);
 }  */
 
-.header__open {
+/* .header__open {
     display: none;
 }
 
@@ -85,15 +252,6 @@
     font-size: 15px;
     margin-bottom: 0px;
 }
-
-/* .btn{
-    height: 30px;
-    align-items: center;
-    align-content: center;
-    width: 70px;
-    margin-right: 10px;
-    text-align: center! important;
-} */
 
 .container-fluid{
     color: $background-header-footer;
@@ -117,4 +275,4 @@ font-size: 1.6rem;
 
 .navbar{
     padding-right: 20px;
-}
+} */
