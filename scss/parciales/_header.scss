@@ -101,8 +101,15 @@
     width: 100%;
     flex-direction: row!important;
     height: 90px;
-    
 }
+
+.nav{
+    &__enlace {
+        &:hover:after {
+            transform: none;
+        }
+    }
+}        
 
 .header__open {
     margin-right: 1rem;
@@ -133,13 +140,13 @@
     width: 60%;
     height: 100vh;
     opacity: 0.96; 
-   position: fixed;
-   top: 0;
-   right: -100%;
-   z-index: 10;
-   transition: right 1.5s;
-   padding-left: 5%;
-   padding-top: 5%;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 10;
+    transition: right 1.5s;
+    padding-left: 5%;
+    padding-top: 5%;
 }
 
 #lateral:target {
@@ -159,9 +166,9 @@
 
 }
 
-.jam-menu:hover {
+/* .jam-menu:hover {
     color: white;
-}
+} */
 
 .jam-close-rectangle {
     font-size: 20px;
