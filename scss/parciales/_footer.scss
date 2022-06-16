@@ -110,7 +110,6 @@ footer .content .link-boxes .box{
 .link-boxes .box .link_nombre::before{
   content: '';
   position: absolute;
-  left: 0;
   bottom: -2px;
   height: 2px;
   width: 35px;
@@ -182,7 +181,6 @@ footer .bottom-detalles .bottom_text{
   font-weight: 300;
   color: #fff;
   opacity: 0.8;
-  text-decoration: none;
 }
 .bottom-detalles .bottom_text a:hover{
   opacity: 1;
@@ -243,7 +241,7 @@ a img{
 }
 @media (max-width: 600px){
   footer::before{
-    top: 175px;
+    top: 165px;
   }
   footer .content .tope{
     flex-direction: column;
@@ -288,8 +286,12 @@ a img{
     height: 2px;
     width: 35px;
     background: #fff;
+    text-decoration: none;
   }
-
+  
+ /*  .content .link-boxes .box .link_nombre{
+    text-decoration: none;
+  } */
 
 }
 /* 

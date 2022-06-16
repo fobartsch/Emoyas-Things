@@ -46,10 +46,24 @@ main .titulo h2{
 
 .col-sm-12{
     text-align: center;
+    
+
 }
 
+.col-12{
+    display: flex;
+    justify-content: center;
+}
 
+.btn1, .btn2{
+    margin-right: 0;
+    font-size: 14px;
+    width: 125px;
+}
 
+.boton{
+    justify-content:space-around;
+}
 
                                                  /* FRAGANCIAS */
 .contenido .imgbox img{

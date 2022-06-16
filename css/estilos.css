@@ -484,24 +484,29 @@ h2{
   padding-top: 50px;
 }
 
+.boton {
+  display: flex;
+  justify-content: space-around;
+}
+
 .btn1, .btn2 {
-  width: 120px;
+  width: 125px;
   padding: 0%;
-  margin-right: 20px;
   border-radius: 10px;
-  height: 35px;
+  height: 45px;
+  justify-content: space-around;
 }
 
 .btn2 {
-  width: 120px;
+  width: 125px;
   /* padding: 0%;
     margin-left: 10px;
     border-radius: 10px; */
-  height: 35px;
+  height: 45px;
 }
 
 div .card-body {
-  padding: 0 1rem 10px;
+  padding: 0 10px 10px;
   border-radius: 15px;
   background-color: #a7c0e5;
   align-items: flex-end;
@@ -536,7 +541,7 @@ div .card-body {
     animation-iteration-count: infinite;
 }  */
 .card-body .text-danger {
-  font-size: 20px;
+  font-size: 25px;
   padding-top: 5px;
 }
 
@@ -553,6 +558,8 @@ div .card-body {
 
 .card-body h4 {
   font-size: 22px;
+  color: black;
+  font-weight: 600;
 }
 
 .card-body h5 {
@@ -577,11 +584,6 @@ div .card-body {
   animation-name: flash;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-}
-
-.boton {
-  display: flex;
-  justify-content: center;
 }
 
 /* .col:hover{
@@ -742,7 +744,6 @@ footer .content .link-boxes .box {
 .link-boxes .box .link_nombre::before {
   content: '';
   position: absolute;
-  left: 0;
   bottom: -2px;
   height: 2px;
   width: 35px;
@@ -825,7 +826,6 @@ footer .bottom-detalles .bottom_text {
   font-weight: 300;
   color: #fff;
   opacity: 0.8;
-  text-decoration: none;
 }
 
 .bottom-detalles .bottom_text a:hover {
@@ -886,7 +886,7 @@ a img {
 
 @media (max-width: 600px) {
   footer::before {
-    top: 175px;
+    top: 165px;
   }
   footer .content .tope {
     flex-direction: column;
@@ -928,7 +928,11 @@ a img {
     height: 2px;
     width: 35px;
     background: #fff;
+    text-decoration: none;
   }
+  /*  .content .link-boxes .box .link_nombre{
+    text-decoration: none;
+  } */
 }
 
 /* 
@@ -2467,6 +2471,12 @@ p {
   .row1 {
     padding-top: 50px;
   }
+  .btn1, .btn2, .btn2 {
+    margin-right: 0;
+  }
+  .boton {
+    justify-content: space-around;
+  }
   /* FRAGANCIAS */
   .section {
     padding: 50px 40px;
@@ -2536,6 +2546,12 @@ p {
   }
   .col-12 {
     margin-top: 30px;
+  }
+  .btn1, .btn2, .btn2 {
+    margin-right: 0;
+  }
+  .boton {
+    justify-content: space-around;
   }
   /*  FOOTER - BOOTSTRAP  */
   img .header__logo1 {
@@ -2623,6 +2639,18 @@ align-items: center!important; */
   }
   .col-sm-12 {
     text-align: center;
+  }
+  .col-12 {
+    display: flex;
+    justify-content: center;
+  }
+  .btn1, .btn2, .btn2 {
+    margin-right: 0;
+    font-size: 14px;
+    width: 125px;
+  }
+  .boton {
+    justify-content: space-around;
   }
   /* FRAGANCIAS */
   .contenido .imgbox img {
