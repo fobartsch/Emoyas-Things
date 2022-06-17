@@ -2633,10 +2633,9 @@ align-items: center!important; */
     text-decoration: none;
   }
   .header__logo {
-    width: 70%;
     height: auto;
     margin-left: 1rem;
-    padding-top: 0;
+    padding-top: 10px;
   }
   .jam-menu {
     display: flex;
