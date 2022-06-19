@@ -6,9 +6,16 @@
                               /* Fragancias Main 1 */
 
 main .titulo h2{
-  font-size: 25px;
+  font-size: 27px;
   letter-spacing: 0.3rem;
 }
+
+.swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
+  perspective: 900px!important;
+}
+.contenido .imgbox{
+  width:600px!important;
+  }
 
                             /* Fragancias Main 2 */
 .row1{
@@ -50,66 +57,39 @@ main .titulo h2{
 .boton{
   justify-content:space-around;
 }
-                                    /*  FOOTER - BOOTSTRAP  */
+                                    /*  FOOTER */
 
-img .header__logo1{
-width: 120px;
-}
-
-div .col{
-align-items: center;
-text-align: center;
-}
-
-.nav{
-  align-items: center;
-}
-.row{
-/* text-align: center!important;
-align-items: center!important; */
-font-size: 15px;
-text-align: center;
+footer .content .link-boxes .box{
+  width: calc(100% / 2 - 10px);
 
 }
+footer .content .link-boxes{
+  flex-wrap: wrap;
+}
+footer .content .link-boxes .input-box{
+  width: 40%;
+  margin-top: 0px;
+}  
 
-h5{
- font-size: 18px;
- padding-top: 20px;
- margin-top: 0px;
+.content .tope .logo-detalles{
+  font-size: 26px;
+}
+.content .tope .media-icons a{
+  height: 35px;
+  width: 35px;
+  font-size: 14px;
+  line-height: 35px;
+}
+footer .content .link-boxes .box{
+  width: calc(100% / 2 - 10px);
 }
 
-.d-flex{
- display:flex;
- flex-direction: column;
- align-items: center;
+.bottom-detalles .bottom_text span,
+.bottom-detalles .bottom_text a{
+  font-size: 17px;
+}
+footer .content .tope{
+  margin-bottom: 30px;
 }
 
-form p{
-  text-align: center!important;
-}
-
-.d-flex .w-100 .gal-2{
-  gap: 0;
-  padding-bottom: 5px;
-}
-
-.form-control{
-  padding-bottom: 5px;
-}
-
-.gap-2{
-  gap: 0!important;
-}
-
-.btn{
-  margin-bottom: 5px;
-}
-
-#newsletter1{
-  margin-bottom: 10px;
-}
-
-/* .col-sm-6{
-  text-align: center;
-} */
 }

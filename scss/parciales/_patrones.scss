@@ -4,17 +4,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
 }
 
 main{
-  display: flex;
-  flex-wrap: wrap;
+/*   display: flex;
+  flex-wrap: wrap; */
   justify-content: center;
   align-items: center;
   padding-bottom: 40px;
   background: #205375;
-  padding-top: 140px;
+  padding-top: 155px;
   /* background: rgb(67,169,235);
   background: linear-gradient(0deg, rgba(67,169,235,1) 0%, rgba(0,0,0,1) 100%); */
 }

@@ -5,9 +5,12 @@
 .header {
     width: 100%;
     flex-direction: row!important;
-    height: 90px;
+    height: 100px;
 }
 
+.header__logo{
+    padding: 10px 0;
+}
 .nav{
     &__enlace {
         &:hover:after {
@@ -99,6 +102,7 @@ main .titulo h2{
     height: 50px;
 }
 
+
 /* .navbar-nav .border-start{
     display: none! important;
 }  */
@@ -142,12 +146,30 @@ main .titulo h2{
 }
 
                                                  /* FRAGANCIAS */
+
+/* main{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+    background: #205375;
+    padding-top: 155px;
+} */
+
+section{
+    position: relative;
+    padding:  30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #161616;
+  }
 .contenido .imgbox img{
-min-width: 200px;
+/* min-width: 200px; */
+height: 350px;
 }
 
 .contenido .imgbox{
-width:400px;
+width:300px!important;
 }
 
 /* section{
@@ -177,6 +199,16 @@ width: 100%;
 padding-top: 30px;
 padding-bottom: 0;
 }
+
+.contenido .imgbox {
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+}
+
+.swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
+    perspective: 500px!important;
+}
                                                
 section .circulo{
     clip-path: circle(80% at right -10%);
@@ -189,6 +221,12 @@ section .circulo{
 /* Para que no se vea la linea blanca */
 .titulo2{
     margin-bottom: -1px;
+    padding-top: 0;
+}
+
+.titulo2 p{
+    font-size: 25px;
+    margin-bottom: 0;
 }
 
 .card1{
@@ -196,134 +234,73 @@ section .circulo{
 }
                                  
 
-                                                            /* FOTTER */  
+                                              /* FOTTER */  
 
-/* .contenedor{
-flex-direction: column;
-align-items: center;
-padding-top: 5px;
+footer::before{
+    top: 165px;
 }
-
-body{
-min-width: 400px;
+footer .content{
+    padding: 15px 40px 40px 40px;
 }
-
-.boton-whatsapp{
-width: 5px;
+footer .content .tope{
+    flex-direction: column;
+    margin-bottom: 25px;
 }
-.caja input{
-    padding: 15px;
+.content .tope .media-icons{
+    margin-top: 8px;
+    
 }
-
-#boton{
-padding: 5px;
+footer .content .link-boxes .box{
+    width: calc(100% / 1 );
+    
 }
-
-.caja .terminos p{
-text-align: center;
+footer .content .link-boxes .input-box{
+    width: 100%;
+    margin-right: 0;
 }
-
-p{
-text-align: center;
-color: #7a7a7a;
+footer .bottom-detalles .bottom_text{
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 15px 10px;
+    font-size: 16px;
 }
-
-.caja .terminos p{
-text-align: left;
-} */
-
-                                        /*  FOOTER - BOOTSTRAP */
-img .header__logo{
-width: 120px;
+.bottom-detalles .bottom_text span,
+.bottom-detalles .bottom_text a{
+    font-size: 13px;
 }
-.row{
-text-align: center!important;
-align-items: center!important;
+footer .content .link-boxes ul{
+    padding: 0%;
+}
+footer .content{
+    padding-bottom: 20px;
 }
 
-h5{
-padding-top: 20px;
+footer .content .link-boxes .box{
+    text-align: center;
+}
+.link-boxes .box .link_nombre::before{
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+    text-decoration: none;
 }
 
-a.nav.nav-link{
-font-size: 14px;
+.link-boxes .input-box input {
+    width: 100%;
+    text-align: center;
+    align-items: center;
 }
 
-.nav-link{
-font-size: 20px;
+.link-boxes .input-box .boton{
+   /*  width:50%; */
+    text-align: center;
 }
 
-a.nav__enlace1{
-font-size: 14px;
+.content .link-boxes .box .link_nombre {
+    margin-top: 15px;
 }
-
-form p{
-    text-align: center!important;
-}
-
-.col p{
-    font-size: 12px; /* (Tamaño de letra de Derechos Reservados) */
-}
-
-.suscribirte{
-    display: flex;
-}
-                                        /* CONSULTAS */
-
-.consultas{
-text-align: center;
-}
-
-.consultas form{
-width: 350px;
-margin: auto;
-background: rgba(0, 0, 0,0.4);
-padding: 10px 20px;
-box-sizing: border box;
-margin-top: 10px;
-border-radius: 7px;
-}
-
-h4{
-font-size: 25px;
-margin-bottom: 10px;
-}
-input, textarea{
-width: 90%;
-margin-bottom: 15px;
-padding: 5px;
-font-size: 13px;
-
-}
-textarea{
-min-height: 80px;
-max-height: 1500px;
-max-width: 100%;
-}
-h5{
-font-size: 20px;
-}
-.nav_link{
-font-size: .5rem;
-}
-.row{
-flex-direction: column;
-align-items: center;
-padding-top: 0px;
-align-items: center;
-}
-
-div .col{
-font-size: 5px;
-}
-
-.text-muted{
-font-size: 15px;
-}
-
-.nav__enlace1{
-font-size: 12px;
-}
-
-
 }

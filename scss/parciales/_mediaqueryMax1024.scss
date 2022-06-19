@@ -1,6 +1,8 @@
 
-                                                        /* MAIN */
+                                                       
 @media screen and (max-width: 1023px) {
+
+                                         /*  HEADER */
 
 .header {
     flex-direction:column;
@@ -15,7 +17,7 @@ img.header__marca.fade-in{
     padding: 0;
 }
 .nav{
-    padding-top: 1rem;
+    padding-top: 10px;
     padding-bottom: 0;
 }
 
@@ -28,6 +30,19 @@ ul{
     margin-bottom: 0;
 }
 
+                                        /* MAIN 1 */
+.main{
+    padding-top: 160px;
+}
+                                /* ENCABEZADO BIENVENIDO A EMOYAS THINGS */
+main .titulo h2{
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+h2{
+    font-size: 20px;
+}
                                         /* MAIN 2 */
 
 .row1{
@@ -51,20 +66,29 @@ padding: 50px 40px;
 flex-direction: column;
 }
 
-.contenido .texto{
-max-width: 100%;
+.content .textBox
+.content .imgBox{
+    max-width: 100%;
 }
 
-.contenido .texto h3{
-text-align: center;
+.contenido .texto{
+width: 100%;
+}
+
+.contenido .texto p{
+    margin-right: 0px;
+}
+  
+.texto h3{
+    margin-right: 0px;
+    margin-bottom: 15px;
 }
 
 .swiper-slide{
-
-width: 300px
+    width: 300px
 }
 .swiper-slide img {
-display:inline-block;
+    display:inline-block;
 }
 
 .col-xl-6{
@@ -73,18 +97,10 @@ display:inline-block;
 
 .titulo2{
     margin-bottom: -2px;
-  }
-
-
-                                /* ENCABEZADO BIENVENIDO A EMOYAS THINGS */
-.titulo{
-width: 100%;
-height: 30px;
-margin-bottom: 30px;
 }
 
-h2{
-font-size: 20px;
+.titulo2 p{
+    margin-bottom: 0;
 }
 
                                         /* FOOTER */
