@@ -1351,10 +1351,10 @@ textarea {
 
 @media screen and (max-width: 600px) {
   /*  HEADER   */
-  #lateral:target {
-    right: 0px;
-    color: white;
-  }
+  /*   #lateral:target{
+                                            right:0px;
+                                            color: white;
+                                        } */
   /*   BOOTSTRAP */
   .nav-link {
     font-family: 'Playball', cursive;
