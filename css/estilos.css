@@ -1593,7 +1593,6 @@ textarea {
   }
   #lateral:target {
     right: 20;
-    display: block;
   }
   .nav__lista {
     flex-direction: column;
