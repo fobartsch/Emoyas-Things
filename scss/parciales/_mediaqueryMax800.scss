@@ -1,42 +1,37 @@
 
 @media screen and (max-width: 800px) {
 
-                            /* HEADER */
-
-                              /* Fragancias Main 1 */
+                           
+                                     /* Fragancias Main 1 */
 
 main .titulo h2{
   font-size: 27px;
   letter-spacing: 0.3rem;
 }
 
-.swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
+.swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper{
   perspective: 900px!important;
 }
+
 .contenido .imgbox{
   width:600px!important;
-  }
+}
 
-                            /* Fragancias Main 2 */
-.row1{
-  padding-top: 50px;
+                                       /* Fragancias Main 2 */
+.row4{
+  padding-top: 20px;
+  margin-top: 0;
 }
 
 .col-md-6{
   text-align: center;
 }
 
-.card1 .card-body1{
-  position: relative;
-  width: 60%;
-  left: 35%;
-  top: 40%;
-}
 
 .d-flex1{
   display:flex;
   align-items: center;
-  }
+}
 
 .titulo2{
   margin-bottom: -4px;
@@ -57,15 +52,18 @@ main .titulo h2{
 .boton{
   justify-content:space-around;
 }
+
                                     /*  FOOTER */
+
 
 footer .content .link-boxes .box{
   width: calc(100% / 2 - 10px);
-
 }
+
 footer .content .link-boxes{
   flex-wrap: wrap;
 }
+
 footer .content .link-boxes .input-box{
   width: 40%;
   margin-top: 0px;
@@ -74,12 +72,14 @@ footer .content .link-boxes .input-box{
 .content .tope .logo-detalles{
   font-size: 26px;
 }
+
 .content .tope .media-icons a{
   height: 35px;
   width: 35px;
   font-size: 14px;
   line-height: 35px;
 }
+
 footer .content .link-boxes .box{
   width: calc(100% / 2 - 10px);
 }
@@ -88,6 +88,7 @@ footer .content .link-boxes .box{
 .bottom-detalles .bottom_text a{
   font-size: 17px;
 }
+
 footer .content .tope{
   margin-bottom: 30px;
 }

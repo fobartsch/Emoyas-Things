@@ -1,23 +1,24 @@
 @media screen and (max-width: 600px) {
 
-                                         /* HEADER  */
+                                            /* HEADER  */
 
 .header {
     width: 100%;
-    flex-direction: row!important;
+    flex-direction: row !important;
     height: 100px;
 }
 
-.header__logo{
+.header__logo {
     padding: 10px 0;
 }
-.nav{
+
+.nav {
     &__enlace {
         &:hover:after {
             transform: none;
         }
     }
-}        
+}
 
 .header__open {
     margin-right: 1rem;
@@ -41,12 +42,11 @@
 
 #lateral {
     display: block;
-    background:  #2c3e50;
-    background-image: linear-gradient(to bottom, #2c3e50, #d7e6ef );
-    /* background-image: linear-gradient(to bottom, #2991d6, #d7e6ef ); */
+    background: #2c3e50;
+    background-image: linear-gradient(to bottom, #2c3e50, #d7e6ef);
     width: 60%;
     height: 100vh;
-    opacity: 0.96; 
+    opacity: 0.96;
     position: fixed;
     top: 0;
     right: -100%;
@@ -59,9 +59,7 @@
 #lateral:target {
     right: 20;
     display: block;
-    
 }
-
 
 .nav__lista {
     flex-direction: column;
@@ -70,216 +68,225 @@
     position: relative;
     padding-left: 0;
     line-height: 2.5rem;
-
 }
 
 .jam-close-rectangle {
     font-size: 20px;
-    display: block!important;
+    display: block !important;
     color: #fff;
     transition: none;
 }
 
 
+                                            /*  MAIN 1 */
 
-
-                                        /*  MAIN 1 */
-
-main{
+main {
     padding-top: 90px;
-}     
+}
 
-.titulo{
+.titulo {
     margin-bottom: 0;
 }
 
-main .titulo h2{
+main .titulo h2 {
     font-size: 20px;
     letter-spacing: 0.3rem;
 }
 
-.wave{
+.wave {
     height: 50px;
 }
 
 
-/* .navbar-nav .border-start{
-    display: none! important;
-}  */
-
-/* section{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    padding:  30px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #161616;
-  } */
 
                                         /* MAIN 2 */
 
-.row1{
+.row1 {
     padding-top: 0px;
 }
 
-.col-sm-12{
+.col-sm-12 {
     text-align: center;
-    
-
 }
 
-.col-12{
+.col-12 {
     display: flex;
     justify-content: center;
 }
 
-.btn1, .btn2{
+.btn1,
+.btn2 {
     margin-right: 0;
     font-size: 14px;
     width: 125px;
 }
 
-.boton{
-    justify-content:space-around;
+.boton {
+    justify-content: space-around;
 }
 
-                                                 /* FRAGANCIAS */
+                                        /* FRAGANCIAS CARRUSEL*/
 
-/* main{
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 70px;
-    background: #205375;
-    padding-top: 155px;
-} */
 
-section{
+section {
     position: relative;
-    padding:  30px 50px;
+    padding: 30px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: #161616;
-  }
-.contenido .imgbox img{
-/* min-width: 200px; */
-height: 300px;
 }
 
-.contenido .imgbox{
-width:300px!important;
-}
-
-/* section{
-padding: 20px 40px;
-min-height: 0;
-} */
-
-.contenido .texto h3{
-color: #fff;
-font-size: 15x;
-}  
-
-.contenido .texto p{
-color: #fff;
-font-size: 15px;
-}
-
-.contenido .texto{
-color: #fff;
-font-size: 25px;
-margin-bottom: 0px;
-
-}
-
-.swiper {
-width: 100%;
-padding-top: 30px;
-padding-bottom: 0;
+.contenido .imgbox img {
+    height: 300px;
 }
 
 .contenido .imgbox {
+    width: 300px !important;
     display: flex;
-    width: 300px;
     justify-content: flex-end;
 }
 
-.swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
-    perspective: 300px!important;
+.contenido .texto h3 {
+    color: #fff;
+    font-size: 15x;
 }
-                                               
-section .circulo{
+
+.contenido .texto p {
+    color: #fff;
+    font-size: 15px;
+}
+
+.contenido .texto {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+.swiper-3d,
+.swiper-3d.swiper-css-mode .swiper-wrapper {
+    perspective: 300px !important;
+}
+
+section .circulo {
     clip-path: circle(80% at right -10%);
 }
 
-/* BOTONES de las cards ya que hay otro btn en el footer con un valor de 100% que molesta */
-.btn3{
-    width:auto;
+
+                                          /*  FRAGANCIAS VENTAS */
+   
+.btn3 {
+    width: auto;
 }
-/* Para que no se vea la linea blanca */
-.titulo2{
+
+.titulo2 {
     margin-bottom: -1px;
     padding-top: 0;
 }
 
-.titulo2 p{
+.titulo2 p {
     font-size: 25px;
     margin-bottom: 0;
 }
 
-.card1{
+.card1 {
     margin-top: 40px;
 }
-                                 
 
-                                              /* FOTTER */  
+.container-fluid{
+    display: flex;
+}  
 
-footer::before{
+.card1 .card-body1{
+    width: 57%;
+    left: 0%;
+    top: 33%;
+}
+
+.card1 .card-body1 h3{
+    font-size: 20px;
+}
+.card1 .card-body1 p{
+    font-size: 16px;
+    text-align: justify;
+}
+.card1:hover img{
+    left: 80%;
+    height: 350px;
+}
+.col-xl-6{
+    margin-bottom: 0;
+}
+.card1 .card-body1 a{
+    width: 100px;
+    height: 35px;
+    padding: 5px 10px;
+    font-size: 17px;
+} 
+
+
+                                            /* FOTTER */
+
+footer::before {
     top: 165px;
 }
-footer .content{
+
+footer .content {
     padding: 15px 40px 40px 40px;
 }
-footer .content .tope{
+
+footer .content .tope {
     flex-direction: column;
     margin-bottom: 25px;
 }
-.content .tope .media-icons{
+
+.content .tope .media-icons {
     margin-top: 8px;
-    
+
 }
-footer .content .link-boxes .box{
-    width: calc(100% / 1 );
-    
+
+footer .content .link-boxes .box {
+    width: calc(100% / 1);
+
 }
-footer .content .link-boxes .input-box{
+
+footer .content .link-boxes .input-box {
     width: 100%;
     margin-right: 0;
 }
-footer .bottom-detalles .bottom_text{
+
+footer .bottom-detalles .bottom_text {
     flex-direction: column;
     text-align: center;
     gap: 10px;
     padding: 15px 10px;
     font-size: 16px;
 }
+
 .bottom-detalles .bottom_text span,
-.bottom-detalles .bottom_text a{
+.bottom-detalles .bottom_text a {
     font-size: 13px;
 }
-footer .content .link-boxes ul{
+
+footer .content .link-boxes ul {
     padding: 0%;
 }
-footer .content{
+
+footer .content {
     padding-bottom: 20px;
 }
 
-footer .content .link-boxes .box{
+footer .content .link-boxes .box {
     text-align: center;
 }
-.link-boxes .box .link_nombre::before{
+
+.link-boxes .box .link_nombre::before {
     content: '';
     position: absolute;
     bottom: -2px;
@@ -295,12 +302,64 @@ footer .content .link-boxes .box{
     align-items: center;
 }
 
-.link-boxes .input-box .boton{
-   /*  width:50%; */
+.link-boxes .input-box .boton {
     text-align: center;
 }
 
 .content .link-boxes .box .link_nombre {
     margin-top: 15px;
+}
+
+                                        /* PATRONES */
+
+.products_body .texto h3{
+    font-size: 30px;
+}
+
+.products_body .texto p{
+    font-size: 18px;
+}  
+
+.products_body .wrapper{
+    width: 350px;
+    height:400px;
+    background: transparent;
+    margin: 10px;
+}
+    
+.wrapper .container .bottom .left .details .txt_products{
+        font-size: 16px;
+    }
+    
+.wrapper .inside{
+    width: 120px;
+    height: 120px;
+}
+
+.wrapper .inside .icon{
+    right: 78px;
+    top: 78px;
+}
+
+.wrapper .container .bottom .left .details p{
+    font-size: 14px;
+}
+
+.wrapper .container .bottom .left .buy i{
+    font-size: 17px;
+    padding: 30px;
+    line-height:1.5;
+}
+
+.wrapper .container .bottom .left .details{
+padding-left: 10px;
+width: calc(65%);
+margin-top: 15px;
+}
+
+                                        /* CONSULTAS */
+
+#boton{
+    padding: 0;
 }
 }

@@ -4,7 +4,7 @@
 
                                          /*  HEADER */
 
-.header {
+.header{
     flex-direction:column;
 }
 
@@ -16,6 +16,7 @@ img.header__marca.fade-in{
     margin: 0;
     padding: 0;
 }
+
 .nav{
     padding-top: 10px;
     padding-bottom: 0;
@@ -34,12 +35,13 @@ ul{
 .main{
     padding-top: 160px;
 }
-                                /* ENCABEZADO BIENVENIDO A EMOYAS THINGS */
+                               
 main .titulo h2{
     width: 100%;
     margin-bottom: 30px;
     font-size: 35px;
 }
+
 h2{
     font-size: 20px;
 }
@@ -56,6 +58,7 @@ h2{
 .boton{
     justify-content:space-around;
 }
+
                                            /* FRAGANCIAS */
     
 .section{
@@ -87,8 +90,13 @@ width: 100%;
 .swiper-slide{
     width: 300px
 }
+
 .swiper-slide img {
     display:inline-block;
+}
+
+.row4{
+    margin-top: 20px;
 }
 
 .col-xl-6{
@@ -100,10 +108,9 @@ width: 100%;
 }
 
 .titulo2 p{
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
-
-                                        /* FOOTER */
+                              
 
 
 }
