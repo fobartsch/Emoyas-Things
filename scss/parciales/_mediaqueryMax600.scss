@@ -55,10 +55,10 @@
     padding-top: 5%;
 }
 
-#lateral:target {
-    right: 20;
-    
-}
+#lateral:target{
+    right:0px;
+    color: white;
+} 
 
 .nav__lista {
     flex-direction: column;
