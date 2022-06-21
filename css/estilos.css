@@ -1115,11 +1115,13 @@ main {
 
 .products_body .texto h3 {
   font-size: 38px;
+  color: white;
 }
 
 .products_body .texto p {
   font-size: 25px;
   color: white;
+  text-align: justify;
 }
 
 .text {
@@ -1763,7 +1765,7 @@ textarea {
     margin: 10px;
   }
   .wrapper .container .bottom .left .details .txt_products {
-    font-size: 18px;
+    font-size: 16px;
   }
   .wrapper .inside {
     width: 120px;
@@ -1774,7 +1776,7 @@ textarea {
     top: 78px;
   }
   .wrapper .container .bottom .left .details p {
-    font-size: 14px;
+    font-size: 13px;
   }
   .wrapper .container .bottom .left .buy i {
     font-size: 17px;
@@ -1788,6 +1790,12 @@ textarea {
   }
   .wrapper .inside .contents p {
     font-size: 17px;
+  }
+  .products_body .texto h3 {
+    font-size: 19px;
+  }
+  .products_body .texto p {
+    font-size: 15px;
   }
   /* CONSULTAS */
   #boton {
