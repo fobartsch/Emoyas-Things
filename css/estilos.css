@@ -1506,6 +1506,13 @@ textarea {
   footer .content .tope {
     margin-bottom: 30px;
   }
+  /* PATRONES */
+  .products_body .texto h3 {
+    font-size: 22px;
+  }
+  .products_body .texto p {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 600px) {
