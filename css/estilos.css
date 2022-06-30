@@ -1115,11 +1115,13 @@ main {
 
 .products_body .texto h3 {
   font-size: 38px;
+  color: white;
 }
 
 .products_body .texto p {
   font-size: 25px;
   color: white;
+  text-align: justify;
 }
 
 .text {
@@ -1504,6 +1506,14 @@ textarea {
   footer .content .tope {
     margin-bottom: 30px;
   }
+  /* PATRONES */
+  .products_body .texto h3 {
+    font-size: 32px;
+    color: white;
+  }
+  .products_body .texto p {
+    text-align: justify;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1752,9 +1762,11 @@ textarea {
   /* PATRONES */
   .products_body .texto h3 {
     font-size: 30px;
+    color: white;
   }
   .products_body .texto p {
     font-size: 18px;
+    text-align: justify;
   }
   .products_body .wrapper {
     width: 350px;
