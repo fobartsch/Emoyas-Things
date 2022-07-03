@@ -1,9 +1,9 @@
-var respuesta = "BUENOS AIRES"; 	 	 
-var acierto = false; 	 	 
+let respuesta = "BUENOS AIRES"; 	 	 
+let acierto = false; 	 	 
 for (var contador = 0; contador < 3 && acierto === false; contador++) {	 	 
-    var respUsuario = prompt("Capital de Argentina: ");
+    let respUsuario = prompt("Capital de Argentina: ");
         if (respUsuario.toUpperCase() === respuesta) { 	 	 
-        var acierto = true; 
+        let acierto = true; 
         alert("Respuesta correcta, has acertado!!!");	 	
 	    }	 	 
 }	 	 
