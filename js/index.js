@@ -23,7 +23,7 @@ switch (opciones) {
             case 1:
                         alert("Por favor seleciona la cantidad de Fragancias que deseas comprar");
                         let cantidad = parseInt(prompt("Ingrese la cantidad", 0));
-                        console.log(cantidad);
+                        
                             if (cantidad <= 2) {
                                 alert(`Muchas gracias por su compra, este producto se añadió al carrito. El precio final a pagar es de $${precioFragancias1 * cantidad}.`);
                                 
@@ -37,7 +37,7 @@ switch (opciones) {
             case 2:
                         alert("Por favor seleciona la cantidad de Tejidos que deseas comprar");
                         let cantidad1 = parseInt(prompt("Ingrese la cantidad", 0));
-                        console.log(cantidad1);
+                        
                             if (cantidad1 <= 2) {
                                 alert(`Muchas gracias por su compra, este producto se añadió al carrito. El precio final a pagar es de $${precioTejidos * cantidad1}.`);
                              
@@ -51,7 +51,7 @@ switch (opciones) {
             case 3:
                         alert("Por favor seleciona la cantidad de  que deseas comprar");
                         let cantidad2 = parseInt(prompt("Ingrese la cantidad", 0));
-                        console.log(cantidad2);
+                        
                             if (cantidad2 <= 2) {
                                 alert(`Muchas gracias por su compra, este producto se añadió al carrito. El precio final a pagar es de $${precioPatrones * cantidad2}.`);
                                 
