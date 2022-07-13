@@ -1,4 +1,4 @@
-
+/* 
 alert("Bienvenido a EmoyasThings, seleccione que producto deseas llevar.");
 alert("Recuerda que esta semana todas las Fragancias tienen un descuento del 10%, si llevas hasta 2 unidades, del 20% si llevas mas de dos unidades y de 30% si llevas mas de 4 unidades");
 alert("Realiza tu pedido seleccionando la opcion que deseas.");
@@ -68,4 +68,34 @@ switch (opciones) {
 }
 otraCompra = confirm(`Te gustaría hacer otra compra?`);
 
-}while(otraCompra);
+}while(otraCompra); */
+
+
+
+let producto = ["Textil Blue", "Textil Cony", "Textil Cristobal", "Textil Nina", "Textil Rocio", "Textil Tokyo"];
+let precios = [];
+do {
+    for (let i = 0; i < 6; i++) {
+        precios.push(500);
+    }
+    alert("A continuacion podra cambiar el precio de la Fragancia que elija");
+    let numero = prompt(`Introduzca el número (0-5) asignado a la Fragancia cuyo precio quiera modificar. \n0) Textil Blue \n1) Textil Cony \n2) Textil Cristobal \n3) Textil Nina \n4) Textil Rocio \n5) Textil Tokyo`, `0`);
+    numero = parseInt(numero);
+    if (numero < 6) {
+        alert(`La Fragancia ${producto[numero]} tienen un precio Original de: $ ${precios[numero]}`);
+        datoPrecio = prompt(`Introduce un nuevo Precio`, `0`);
+        alert(`Usted a modificado el precio de la Fragancia ${producto[numero]}`);
+        valorPrecio = parseInt(datoPrecio);
+        numero = parseInt(numero);
+        precios[numero] = valorPrecio;
+        alert(`A continuacion se van mostrar los nuevos precios de cada una de las Fragancias`);
+
+        for (let i = 0; i < producto.length; i++) {
+            alert(`El precio finales de venta de la Fragancia ${producto[i]} es:\nProducto num: ${i}\nPrecio:$ ${precios[i]}`);
+        }
+    } else {
+        alert("Por favor elija una opcion valida");
+    }
+    otraModificacion = confirm(`Te gustaría Modificar el precio de otra Fragancia?`);
+
+} while (otraModificacion); 
