@@ -1352,6 +1352,14 @@ textarea {
   margin-top: -2px;
 }
 
+.rojo {
+  background-color: red;
+}
+
+.verde {
+  background-color: green;
+}
+
 @media screen and (max-width: 1023px) {
   /*  HEADER */
   .header {
@@ -1508,18 +1516,18 @@ textarea {
   }
   /* PATRONES */
   .products_body .texto h3 {
-<<<<<<< HEAD
     font-size: 32px;
     color: white;
   }
   .products_body .texto p {
     text-align: justify;
-=======
+  }
+  /* PATRONES */
+  .products_body .texto h3 {
     font-size: 22px;
   }
   .products_body .texto p {
     font-size: 18px;
->>>>>>> fc62f2ac9fc70f8848622e522c6f15cebc5dda16
   }
 }
 
