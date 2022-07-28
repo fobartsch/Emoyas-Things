@@ -227,7 +227,7 @@ const expresiones = {
     correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
     comentario: /^[a-zA-ZÀ-ÿ0-9] {1,300}$/
 } */
-let contacto = document.getElementById("contacto");
+/* let contacto = document.getElementById("contacto");
 contacto.addEventListener("submit", validarContacto);
 
 function validarContacto(e){
@@ -254,7 +254,7 @@ function validarContacto(e){
         mensaje.className = "rojo"
         document.body.append(mensaje);
     }
-}
+} */
 
 
 
